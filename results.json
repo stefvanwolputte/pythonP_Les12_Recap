@@ -1,0 +1,173 @@
+{
+  "courses": [
+    {
+      "name": "Application development in Python",
+      "academicyears": [
+        {
+          "ayear": "2019-2020",
+          "scores": [
+            {
+              "name": "Jef Verboven",
+              "result": "18"
+            },
+            {
+              "name": "Piet Verboven",
+              "result": "13"
+            },
+            {
+              "name": "Lars Verboven",
+              "result": "15"
+            },
+            {
+              "name": "Jef Van Braband",
+              "result": "10"
+            },
+            {
+              "name": "Koen Verboven",
+              "result": "12"
+            }
+          ]
+        },
+        {
+          "ayear": "2020-2021",
+          "scores": [
+            {
+              "name": "Jan Belmans",
+              "result": "11"
+            },
+            {
+              "name": "Mario Boeckx",
+              "result": "13"
+            },
+            {
+              "name": "Wouter Douwen",
+              "result": "12"
+            },
+            {
+              "name": "Siel Vermeulen",
+              "result": "12"
+            }
+          ]
+        },
+        {
+          "ayear": "2021-2022",
+          "scores": [
+            {
+              "name": "Bert Engelen",
+              "result": "18"
+            },
+            {
+              "name": "Freddie Raymaekers",
+              "result": "13"
+            },
+            {
+              "name": "Wim Geukens",
+              "result": "15"
+            },
+            {
+              "name": "Tilly Donckers",
+              "result": "12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Data analysis with SQL",
+      "academicyears": [
+        {
+          "ayear": "2018-2019",
+          "scores": [
+            {
+              "name": "Jef Verboven",
+              "result": "11"
+            },
+            {
+              "name": "Piet Verboven",
+              "result": "11"
+            },
+            {
+              "name": "Lars Verboven",
+              "result": "13"
+            },
+            {
+              "name": "Jef Van Braband",
+              "result": "8"
+            },
+            {
+              "name": "Koen Verboven",
+              "result": "10"
+            }
+          ]
+        },
+        {
+          "ayear": "2019-2020",
+          "scores": [
+            {
+              "name": "Jef Verboven",
+              "result": "16"
+            },
+            {
+              "name": "Piet Verboven",
+              "result": "11"
+            },
+            {
+              "name": "Lars Verboven",
+              "result": "13"
+            },
+            {
+              "name": "Jef Van Braband",
+              "result": "8"
+            },
+            {
+              "name": "Koen Verboven",
+              "result": "10"
+            }
+          ]
+        },
+        {
+          "ayear": "2020-2021",
+          "scores": [
+            {
+              "name": "Jan Belmans",
+              "result": "9"
+            },
+            {
+              "name": "Mario Boeckx",
+              "result": "11"
+            },
+            {
+              "name": "Wouter Douwen",
+              "result": "10"
+            },
+            {
+              "name": "Siel Vermeulen",
+              "result": "10"
+            }
+          ]
+        },
+        {
+          "ayear": "2021-2022",
+          "scores": [
+            {
+              "name": "Bert Engelen",
+              "result": "16"
+            },
+            {
+              "name": "Freddie Raymaekers",
+              "result": "11"
+            },
+            {
+              "name": "Wim Geukens",
+              "result": "13"
+            },
+            {
+              "name": "Tilly Donckers",
+              "result": "10"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

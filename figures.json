@@ -1,0 +1,69 @@
+{
+"figures":[
+ 	{
+        "shape":"triangle",
+        "colour":"red"
+	},
+	{
+        "shape":"square",
+        "colour":"red"
+	},
+	{
+
+        "shape":"circle",
+        "colour":"red"
+	},
+	{
+
+        "shape"triangle",
+        "colour":"yellow"
+	},
+	{
+
+        "shape":"square",
+        "colour":"yellow"
+  	},
+	{
+
+        "shape":"circle",
+        "colour"yellow"
+	},
+	{
+ 
+        "shape":"triangle",
+        "colour":"blue"
+	},
+	{
+        "shape":"square",
+        "colour":"blue"
+ 	},
+	{
+        "shape":"circle",
+        "colour":"blue"
+ 	},
+	{
+        "shape"triangle",
+        "colour":"green"
+ 	},
+	{
+        "shape":"square",
+        "colour":"green"
+	},
+	{ 
+        "shape":"circle",
+        "colour":"green"
+	},
+	{
+        "shape":"triangle",
+        "colour":"white"
+	},
+	{
+        "shape":"square",
+        "colour":"white"
+	},
+	{
+        "shape":"circle",
+        "colour":"white"
+	}
+]}
+
