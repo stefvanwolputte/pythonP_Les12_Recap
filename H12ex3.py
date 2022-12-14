@@ -1,15 +1,16 @@
 import json
 from random import randint
+
+
 def read_figures():
-    with open(
-            '../../OneDrive - Thomas More/1ITF Python Shared Drive/2022-2023 course material/12 Rehearsal exercises/figures.json') as jsonfile:
+    with open('figures.json') as jsonfile:
         figures=json.load(jsonfile)
     return figures
 
+
 def read_names():
     names=[]
-    with open(
-            '../../OneDrive - Thomas More/1ITF Python Shared Drive/2022-2023 course material/12 Rehearsal exercises/names.txt') as txtfile:
+    with open('names.txt') as txtfile:
         line=txtfile.readline().rstrip()
         while line:
             record=line.split('/')
