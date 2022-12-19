@@ -22,12 +22,12 @@ def control(myclass):  #var die opgevuld wordt in hoofdprogramma
 
 # main program
 input_myclass = input('In which class do you want to do the check: ')
-creatie_attendance_list = control(input_myclass)  #oproepen functie van met return dus vergeet niet om resultaat op te vangen!!!
+create_attendance_list = control(input_myclass)  #oproepen functie van met return dus vergeet niet om resultaat op te vangen!!!
 # print(attendance_list)
 
-if len(creatie_attendance_list) == 0:
+if len(create_attendance_list) == 0:
     print("This class doesn't exit")
 else:
     with open(input_myclass+".csv", "w") as output:  #write not append
         output.write('Attendance list ' + input_myclass + '\n' )
-        output.writelines(creatie_attendance_list)
+        output.writelines(create_attendance_list)

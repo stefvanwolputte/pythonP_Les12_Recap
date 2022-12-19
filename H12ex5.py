@@ -9,14 +9,15 @@ def plotBar(X,Y):
     plt.yticks(range(0, 21, 2))
     plt.show()
 
-
+#MAIN
 #Get dict from JSON
 with open("results.json") as json_file:
     resultsdict = json.load(json_file)
+    #print(type(resultsdict))
 
 #Seperate list from Dict
 courseslist = resultsdict["courses"]
-print(courseslist, type(courseslist))
+print(type(courseslist), courseslist)
 
 print('These courses are available\n')
 
@@ -29,6 +30,7 @@ for course in courseslist:
     coursedict[str(counter)] = course["name"]  #create key-value pairs (key:1,...)  key of type string
     counter+=1
 print()
+
 
 #Ask user input
 choice = input('Please enter the number of a course: ')
@@ -50,7 +52,7 @@ for course in courseslist:                          #Loop over all courses
             total =number = 0                       #reset nr studentens +scores
             for score in scores:                    #loop over all scores in that year
                 total += int(score["result"])       #add up all scores
-                number += 1                         #add sutdent counter with 1
+                number += 1                         #keep track of the amount of students
             listYaxes.append(total/number)          #average
 
 print("listXaxes=", listXaxes)

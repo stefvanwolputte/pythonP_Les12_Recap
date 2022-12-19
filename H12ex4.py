@@ -2,7 +2,7 @@ def lowest_price():
     prices = {}  #dictionary
     with open('prices.txt') as file:
         line = file.readline().rstrip()
-        record = line.split(';')  # je moet hier 2x splitten
+        record = line.split(';')  # split using semi colon
         while line:
             item_ind = record[0]  #grouping by item
             lowest_price = record[1]
@@ -16,14 +16,14 @@ def lowest_price():
 
 
 #MAIN FUNCTION
-print(lowest_price()) #test van functie
+#print(lowest_price()) #function test
 
-prices_dict=lowest_price()  #oproep van de functie
+prices_dict=lowest_price()  #Call functie
 print('Price list')
 print(len('price list')*'-')
 
 for item in prices_dict:
-    print(item, '\t', prices_dict[item])   #print key and the value -> value opvragen via naam van dict and key as index
+    print(item, '\t', prices_dict[item])   #print key and the value -> call value using key
 print()
 
 item=input('Enter the item (press x if you want to stop):')#step 1

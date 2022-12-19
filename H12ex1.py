@@ -1,6 +1,6 @@
 def read_books():
     books = []
-    with open("files_11/books.txt") as file:
+    with open("books.txt") as file:
         line = file.readline().rstrip()
         while line:
             books.append(line)
@@ -34,7 +34,7 @@ while choice != 's':
     if choice == 'a':
         print_list(list_books)
     elif choice == 'b':
-        print_list(list_books)
+        #print_list(list_books)
         max_length = len(list_books[0])
         for i in range(len(list_books)):
             if len(list_books[i]) > max_length:

@@ -1,6 +1,6 @@
 def lookup_classes():
     set_classes = set()  #only unique values
-    with open("files_11/classlist.csv") as file:
+    with open("classlist.csv") as file:
         line = file.readline()
         while line:
             record = line.rstrip().split(';')
@@ -11,7 +11,7 @@ def lookup_classes():
 
 def control(myclass):
     attendance_list = []  #list
-    with open("files_11/classlist.csv") as file:
+    with open("classlist.csv") as file:
         line = file.readline()
         while line:
             record = line.rstrip().split(';')

@@ -19,11 +19,12 @@ def read_names():
             names.append(random_name)
             line=txtfile.readline().rstrip()
         names.sort()
-        # print('length:',len(names))
-        # print(*names)
+        #print('length:',len(names))
+        #print(*names)
         return names
 
 
+#MAIN
 
 figuresdef=read_figures()
 # print(figuresdef)
@@ -33,7 +34,7 @@ new_figures=figuresdef['figures']
 nameslist=read_names()
 # print(nameslist)
 
-print(f'A figure has been chosen for the following toddlers:')
+print('A figure has been chosen for the following toddlers:')
 for name in nameslist:
     length=len(name)
     figure=new_figures[length-1]
